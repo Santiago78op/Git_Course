@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tarea de Git - Fernando Herrera</title>
+
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/estilo.css">
+
+  </head>
+  <body>
+
+    <div class="container main-container">
+      <h1>Tarea práctica #1 <small>Fundamento de Git</small></h1>
+      <hr>
+      <p>
+        Siga las instrucciones indicadas, si no recuerda una instrucción presione el botón de <strong class="text-primary">Ayuda</strong>
+      </p>
+
+      <h3># 1</h3>
+      <p>
+        Cree una carpeta junto a a los demás ejercicios del proyecto llamada
+        <kbd>05-tarea</kbd>
+
+        <div class="solucion">
+          <img src="assets/img/paso-1.png" class="img-fluid">
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+
+      <h3># 2</h3>
+      <p>
+        Dentro de esa carpeta, inicialice el proyecto de git
+
+        <div class="solucion">
+            <pre class="alert alert-success">git init</pre>
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+
+      <h3># 3</h3>
+      <p>
+        Dentro del repositorio cree un archivo llamado <kbd>README.md</kbd>, ingrese el siguiente contenido:
+        <br>
+        <pre>
+          # Información
+          Este es el resultado de mi esfuerzo aprendiendo GIT
+        </pre>
+
+        <div class="solucion">
+            <img src="assets/img/paso-2.png" class="img-fluid">
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+      <h3># 4</h3>
+      <p>
+        <ul>
+          <li>Agregue el README.md al stage o escenario</li>
+          <li>Realice el primer commit con el mensaje <kbd>Creación del readme</kbd></li>
+        </ul>
+        <br>
+
+        <div class="solucion">
+          <pre>
+            git add -A
+            git commit -m "Creación del readme"
+          </pre>
+            <img src="assets/img/paso-3.png" class="img-fluid">
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+
+      <h3># 5</h3>
+      <p>
+        <ul>
+          <li>Cree una carpeta dentro del proyecto llamada <kbd>logs</kbd></li>
+          <li>Dentro de la carpeta logs, cree un archivo llamado <kbd>hoy.log</kbd></li>
+          <li>Crear otro archivo llamado <kbd>historia.log</kbd></li>
+        </ul>
+        <br>
+
+        <div class="solucion">
+            <img src="assets/img/paso-4.png" class="img-fluid">
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+      <h3># 6</h3>
+      <p>
+
+        Agregue únicamente el archivo <kbd>hoy.log</kbd> al stage
+
+        <br>
+
+        <div class="solucion">
+            <img src="assets/img/paso-6.png" class="img-fluid">
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+
+      <h3># 7</h3>
+      <p>
+
+        Realice el segundo commit con el archivo <kbd>hoy.log</kbd>, y en el mensaje coloque "Creamos el archivo hoy.log"
+
+        <br>
+
+        <div class="solucion">
+            <img src="assets/img/paso-7.png" class="img-fluid">
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+
+
+      <h3># 8</h3>
+      <p>
+        <ul>
+          <li>Vamos a crear ahora el archivo <kbd>.gitignore</kbd></li>
+          <li>Ignoremos completamente el archivo <kbd>historia.log</kbd></li>
+        </ul>
+
+
+        <br>
+
+        <div class="solucion">
+            <img src="assets/img/paso-8.png" class="img-fluid">
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+      <h3># 9</h3>
+      <p>
+        <ul>
+          <li>Agregue al stage el archivo <kbd>.gitignore</kbd></li>
+          <li>Realice un commit unicamente con el archivo <kbd>.gitignore</kbd></li>
+        </ul>
+
+
+        <br>
+
+        <div class="solucion">
+            <img src="assets/img/paso-9.png" class="img-fluid">
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+      <h3># 10</h3>
+      <p>
+        <ul>
+          <li>Borre la carpeta LOGS</li>
+          <li>Borre el archivo index.html</li>
+          <li>Borre el archivo .gitignore</li>
+          <li>El único archivo que debe de quedar, es el README.md</li>
+        </ul>
+
+
+        <br>
+
+        <div class="solucion">
+            <img src="assets/img/paso-10.png" class="img-fluid">
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+      <h3># 11</h3>
+      <p>
+        Reconstruir todo lo borrado con un único comando. (El archivo historia.log debe de aparecer)
+
+
+        <br>
+
+        <div class="solucion">
+            <img src="assets/img/paso-11.png" class="img-fluid">
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+      <h3># 12</h3>
+      <p>
+        <h4>¿Por qué el archivo <kbd>historia.log</kbd> no apareció?</h4>
+        Debe de ser capaz de analizar el por qué
+
+
+        <br>
+
+        <div class="solucion">
+            <h4>Porque en ningún momento le pedimos a GIT que estuviera pendiente de sus cambios realizados al archivo historia.log</h4>
+            Si usted tiene ese archivo, es porque lo agrego al stage y realizó al menos un commit que tenía ese archivo.
+        </div>
+        <button type="button" class="btn btn-primary">Ayuda</button>
+      </p>
+      <hr>
+
+
+      <h3>Excelente, llego al final del ejercicio</h3>
+
+    </div>
+
+
+    <script src="assets/jquery.min.js" charset="utf-8"></script>
+    <script src="assets/app.js" charset="utf-8"></script>
+
+  </body>
+</html>
